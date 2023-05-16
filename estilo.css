@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #ffffff;
+}
+
+.navBar {
+    
+    background-color: #ffffff;
+    padding: 0 0 0 1em;
+   
+}
+.logoCentral{
+    display: block;
+    margin: auto;
+    width: 20em;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: end;
+    font-family: 'Montserrat', sans-serif;
+    background-color:#DE98B1;
+
+    
+}
+
+.opcionMenu{
+    padding: .5em;
+    text-transform: uppercase; 
+    font-size: 1.4em;  
+    
+}
+
+.opcionMenu:hover {
+    background-color:  #dfb3c3;
+}
+
+.enlace:link, .enlace:visited, .enlace:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.cuerpoPrincipal{
+    
+    width: 100%;
+    min-height: 100vh ;
+}
+
+/****************tienda*************************/ 
+
+.grupoTarjetas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.tarjetas{
+    width: 16em;
+    padding: 1em;
+    margin: 2em;
+    background-color:#ffffff;
+    box-shadow: 1px 1px 1px  #adadaa;  /*es un sombreado cuadrado (x,y, difuminado.color)*/
+    transition: box-shadow .2s;
+    border-radius: 15px ;
+}
+.tarjetas:hover{
+    box-shadow: 6px 6px 10px rgb(148, 147, 148); 
+    
+}
+
+
+
+.foto{
+    
+    width: 100%; /*se amolda al espacio que dispone, en este caso el de tarjeta*/
+    height: 15em;
+    margin: 0.5em 0.5em 0.5em 0.5em;  /*0 arriba auto derecha, 2em abajo, auto izq*/
+}
+
+.articulo, .genero , .precio{
+    width: 100%;
+    text-align: left;
+    margin: 0 ;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    
+        
+}
+.articulo{
+    font-size: 0.9em;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.genero{
+    font-size: 0.7em;
+    color:#272725;
+    font-weight: 300;
+}
+
+.adicional{
+    width: 100%;
+    text-align: left;
+    margin: 0em 0em 0.5em;
+    font-size: 0.8em;
+    font-family: 'Montserrat', sans-serif;
+    color:#272725;
+}
+.precio{
+    width: 100%;
+    text-align: left;
+    font-size: 0.9em;
+    color: #d35481;
+    font-weight: bolder;    
+}
+
+.bloquePrecio{
+    margin: 0em 0 1em 0em;
+}
+
+/****************contacto************************/ 
+
+.iconos {
+    display: flex;
+    justify-content: center;
+
+}
+
+.icons{
+    width:48px;
+    margin: 1em 1em 2em 1em;
+	
+}
+
+.text{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin:1em 0 2em 0 ;
+    color: #4d4d4b;
+}
+.ubicacion{
+    text-align: center; /*NOOOOOOO, ME ARREGLA EN LA PC PERO SE ROMPE EN OTRO DISPOSITIVO*/
+}
+
+/****************inicio************************/ 
+
+.marcas{
+    display: block;
+}
+
+.logosMarcas{
+    width: 16%;
+    height: auto;
+    margin: 10em auto 1em auto;
+}
+
+.banner{
+    
+    display: block;
+    margin: auto ;
+    height: auto;
+
+}
